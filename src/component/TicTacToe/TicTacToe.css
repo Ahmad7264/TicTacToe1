@@ -1,0 +1,56 @@
+body{
+    background-image: url("/public/moon-1859616_1280.jpg");
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    margin-top: 100px;
+    margin-left: 5%;
+    color: red;
+    font-size: 3rem;
+    
+}
+
+.table-row{
+    border: 2px solid 	#4682b4;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.button{
+    border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgba(220, 0, 0, 1);
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+  box-shadow:
+    inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+
+}
+
+.winner{
+    font-size: 1.5rem;
+    color: rgb(40, 128, 40);
+}
+
+.tic-tac-toe{
+    font-size: 2rem;
+    color: 	#008080;
+    font-weight: 700;
+}
